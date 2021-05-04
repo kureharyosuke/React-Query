@@ -1,7 +1,7 @@
-import * as React, { useState } from "react";
+import React, { useState } from "react";
 
 function App() {
-  // const [page, setPage] = useState("planets");
+  const [page, setPage] = useState("planets");
 
   return (
     <div className="App">
@@ -13,3 +13,5 @@ function App() {
 }
 
 export default App;
+
+//https://fettblog.eu/typescript-react/hooks/
